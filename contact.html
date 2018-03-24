@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+	<meta charset="UTF-8">
+     <meta name="description" content="Spatial Informatics Resources-Geo">
+  <meta name="keywords" content="GIS,SirGeo,Spatial Informatics, GisDevelopment,Gis-trainning,Gis information,vinay-gangare-7378323b">
+  <meta name="author" content="Anuj Kumar Shukla">
+  
+	<title>Contact</title>
+<link rel="Shortcut Icon" href="img/resources/logo.png" />
+	<!-- responsive meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- master stylesheet -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- responsive stylesheet -->
+	<link rel="stylesheet" href="css/responsive.css">
+    <style type="text/css">
+#map {
+        height: 500px;
+        width: 100%;
+        
+       }
+ #coords {
+        background-color: black;
+        color: white;
+        padding: 15px;
+        position: absolute;
+      }
+       .gm-style-cc {
+  display: none !important;
+}
+
+.gm-style a[href^="https://maps.google.com/maps"] {
+  display: none !important;
+}
+    </style>
+
+<script>var x,y;
+      function initMap() {
+        var uluru = {lat: 28.528514, lng: 77.203310};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 12,
+          center: uluru,
+           styles: [
+            {elementType: 'geometry', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#746855'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#263c3f'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#6b9a76'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#38414e'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#212a37'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#9ca5b3'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#746855'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#1f2835'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#f3d19c'}]
+            },
+            {
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#17263c'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#17263c'}]
+            }
+          ]
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+
+         var coordsDiv = document.getElementById('coords');
+        map.controls[google.maps.ControlPosition.TOP_CENTER].push(coordsDiv);
+        map.addListener('mousemove', function(event) {
+          coordsDiv.textContent =
+              'lat: ' + Math.round(event.latLng.lat()) + ', ' +
+              'lng: ' + Math.round(event.latLng.lng());
+        });
+        return new google.maps.LatLng(
+                Math.asin(1 - 2 * y) * 180 / Math.PI,
+                -180 + 360 * x,
+                noWrap);
+      }
+
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGid-iRADjLiWsSEsyHAQ7zBw_s3Nx_h8&callback=initMap">
+    </script>
+</head>
+<body>
+    
+<!--Start top bar area-->
+<section class="top-bar-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <ul class="contact-info">
+                    
+                    <li><i class="fa fa-envelope-o" aria-hidden="true"></i>sirgeoco@gmail.com</li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+</section>
+<!--End top bar area-->
+ 
+<!--Start header area-->  
+<header class="header-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-3 col-sm-12 col-xs-12">
+                <div class="logo">
+                    <a href="index.html"><img src="img/resources/logo.png" alt="Awesome Logo"></a>    
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-9 col-sm-12 col-xs-12">
+                <ul class="info">
+                    <li>
+                         <h2>Spatial Informatics Resources-Geo</h2>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<!--End header area-->
+    
+<!--Start mainmenu area-->
+<section class="mainmeu-area stricky">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                
+                <nav class="main-menu pull-left">
+                    <div class="navbar-header">     
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="navbar-collapse collapse clearfix">
+                        <ul class="navigation">
+                            <li><a href="index.html">Home</a></li>
+
+                           
+                            <li class="dropdown"><a href="services-v1.html">Innovation</a>
+                                <ul>
+                                    <li><a href="GisDevelopment.html">GIS Development</a></li>
+                                    <li><a href="Trainning.html">Trainning</a></li>
+                                </ul>
+                            </li>
+                                                    
+                            <li><a href="blog.html">Blog</a></li>
+
+                           
+
+                            <li class="current dropdown"><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>    
+<!--End mainmenu area-->
+
+<!--Start breadcrumb area-->
+<section class="breadcrumb-area" style="background-image: url(img/resources/breadcrumb-6.jpg);">
+	<div class="container text-center">
+		<h1>Contact Us</h1>
+	</div>
+</section>
+<!--End breadcrumb area-->
+
+<!--Start contact page google map area-->   
+<section class="contact-page-gmap-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="google-map" id="map" style="border: 5px solid #f9c740;">
+                
+            </div>
+        </div>
+    </div>    
+</section>
+<!--End contact page google map area-->
+   
+<!--Start contact-form area--> 
+<section class="contact-form-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+               <div class="contact-form">
+                   <h1>Send Your Message</h1> 
+                      <form action="mailto:sirgeoco@gmail.com" method="post" enctype="text/plain" class="contact-form-validate">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="name" placeholder="Your NAme *">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="email" placeholder="email address *">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text" name="phone" placeholder="Phone">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" name="subject" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <textarea name="message" placeholder="Your Message *"></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="hvr-bounce-to-right" type="submit">Send message</button>
+                            </div>
+                        </div>
+                        <div class="form-result"></div>      
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="contact-info">
+                   <h2>contact details</h2>
+                      <ul>
+                        <li>
+                            <div class="icon-holder">
+                                <span class="flaticon-placeholder"></span>
+                            </div>
+                            <div class="content">
+                                <h5>Address</h5>
+                               <p>Malviya Nagar<br>South Delhi, India.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-holder">
+                                <span class="flaticon-phone-call"></span>
+                            </div>
+                            <div class="content">
+                                <h5>phone number</h5>
+                                <p>(+91) 774 887 1353<br>(+91) 991 187 8624</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon-holder">
+                                <span class="flaticon-e-mail-envelope"></span>
+                            </div>
+                            <div class="content">
+                                <h5>email address</h5>
+                               <p>vgangare@gmail.com<br>anujkumar_shukla@yahoo.co.in</p>
+                            </div>
+                        </li>
+                    </ul>    
+                </div>
+            </div>
+        </div>    
+    </div>    
+</section>    
+<!--End contact-form area--> 
+    
+<!--Start footer area-->  
+<footer class="footer-area">
+    <div class="container">
+        <div class="row">
+            <!--Start single footer widget-->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="single-footer-widget">
+                    <div class="footer-logo">
+                        <img src="img/resources/footer-logo.png" alt="Awesome Footer Logo">
+                    </div>
+                    <ul class="contact-info">
+                        <li>
+                            <h3>Address</h3>
+                            <p>Malviya Nagar<br>South Delhi, India.</p>
+                        </li>
+                        <li>
+                            <h3>Email Us</h3>
+                            <p>vgangare@gmail.com<br>anujkumar_shukla@yahoo.co.in</p>
+                        </li>
+                        <li>
+                            <h3>Call Us</h3>
+                            <p>(+91) 774 887 1353<br>(+91) 991 187 8624</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--End single footer widget-->
+            <!--Start single footer widget-->
+           <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 latest-news-footer-widget">
+                <div class="single-footer-widget">
+                    <div class="title">
+                        <h3>Latest News</h3>
+                    </div>
+                    <ul class="latest-news">
+                        <li>
+                            <div class="img-holder">
+                                <img src="img/footer/latest-news/1.jpg" alt="Awesome Image">
+                            </div>
+                            <div class="text">
+                                <h5><a href="#">OGC new standard data</a></h5>
+                                <p>March 20, 2017</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img-holder">
+                                <img src="img/footer/latest-news/2.jpg" alt="Awesome Image">
+                            </div>
+                            <div class="text">
+                                <h5><a href="HTTP://OPENWEATHERMAP.ORG/" target="_blank">СURRENT WEATHER AND SATELLITE </a></h5>
+                                <p>March 16, 2017</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--End single footer widget-->
+            <!--Start single footer widget-->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 quick-links-footer-widget">
+                <div class="single-footer-widget">
+                    <div class="title">
+                        <h3>Quick Links</h3>
+                    </div>
+                    <ul class="quick-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="GisDevelopment.html">Innovation</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        
+                        <li><a href="contact.html">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <!--End single footer widget-->
+            <!--Start single footer widget-->
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="single-footer-widget">
+                    <div class="title">
+                        <h3>Subscribe Us</h3>
+                    </div>
+                    <div class="subscribe-form">
+                        <p>Signup for our mailing list to get latest<br> updates and news.</p>
+                       <form action="mailto:sirgeoco@gmail.com" method="post" enctype="text/plain">
+                            <input type="text" placeholder="subscrtibe now" name="email">
+                            <button type="submit"><span class="flaticon-e-mail-envelope"></span></button>
+                            <h5>Your Email id is confidential!</h5>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--End single footer widget-->
+        </div>
+    </div>
+    
+</footer>   
+<!--End footer area--> 
+    
+<!--Start footer bottom area-->
+<section class="footer-bottom-v2-area">
+    <div class="container">
+        <div class="row">
+            <div class="container footer-bottom-v2">
+                <div class="row">
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <div class="copyright-text">
+                    <p>SirGeo © 2016 All Rights Reserved</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-12">
+                <ul class="footer-bottom-social-links pull-right">
+                    <li><a href="#"><span class="flaticon-facebook"></span></a></li>
+                    <li><a href="#"><span class="flaticon-twitter-logo-silhouette"></span></a></li>
+                    <li><a href="#"><span class="flaticon-google-plus-symbol"></span></a></li>
+                    <li><a href="#"><span class="flaticon-linkedin-logo"></span></a></li>
+                </ul>
+            </div>
+        </div>
+            </div>  
+        </div>    
+    </div>
+</section>       
+<!--End footer bottom area-->
+
+
+	<div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+	<!-- main jQuery -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- bx slider -->
+	<script src="js/jquery.bxslider.min.js"></script>
+	<!-- count to -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	
+	<!-- mixit up -->
+	<script src="js/jquery.mixitup.min.js"></script>
+	
+	<!-- easing -->
+	<script src="js/jquery.easing.min.js"></script>
+    <!-- gmap helper -->
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <!--gmap-->
+    <script src="js/gmaps.js"></script>
+    <script src="js/map-helper.js"></script>
+	
+	
+
+    <!-- revolution slider js -->
+    <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+    <script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+    
+    <script src="js/jquery-validation/dist/jquery.validate.min.js"></script>
+    
+
+
+	<script src="js/wow.min.js"></script>
+    <script src="assets/Magnific-Popup-master/dist/jquery.magnific-popup.min.js"></script>
+    <!-- thm custom script -->
+	<script src="js/custom.js"></script>
+
+
+</body>
+
+
+</html>
